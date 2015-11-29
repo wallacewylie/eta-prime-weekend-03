@@ -1,0 +1,4 @@
+var newComments = {
+    "message": "req.body.message",
+    "imageId": "req.body.imageId"
+  };

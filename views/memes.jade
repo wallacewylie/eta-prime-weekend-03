@@ -1,0 +1,17 @@
+extends layout
+
+block content
+
+
+  #memes
+  for meme in data
+    h3= meme.title
+    a(href="memes/#{meme.id}")
+    img(src=meme.url)
+
+
+  
+ 
+  #comments
+      h2= meme.topline
+      h2= meme.bottomline

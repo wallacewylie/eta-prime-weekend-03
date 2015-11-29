@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form#newComments
+    input(type="text" name="name" placeholder="Enter a top line on the image")
+    input(type="text" name="type" placeholder="Enter a bottom line on the image")
+    button(type="submit") Submit!
+  
+ 
+  
