@@ -6,3 +6,30 @@ body {
 a {
   color: #00B7FF;
 }
+
+.pictures {
+	display: inline-block;
+	padding: 45px;
+}
+
+#top {
+	padding: 80px 80px 20px 80px;
+}
+
+.up {
+	position: relative;
+	margin-top: -67%;
+	color: white;
+	padding-left: 10px;
+	font-family: Impact, sans-serif;
+	font-size: 150%;
+}
+
+.down {
+	position: relative;
+	margin-top: 45%;
+	color: white;
+	padding-left: 10px;
+	font-family: Impact, sans-serif;
+	font-size: 150%;
+}

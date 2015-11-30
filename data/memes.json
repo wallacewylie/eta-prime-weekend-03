@@ -1,5 +1,8 @@
-[{"url": "Fire_Girl.jpg", "id": 1},
- {"url": "Kermit.jpg", "id": 2},
- {"url": "Obama.jpg", "id": 3},
- {"url": "Whispering.jpg", "id": 4},
- {"url": "Y_U_NO", "id": 5}]		
+[
+	{"url": "/images/Fire_Girl.jpg", "id": 1},
+ 	{"url": "/images/Kermit.jpg", "id": 2},
+ 	{"url": "/images/Obama.jpg", "id": 3},
+ 	{"url": "/images/Whispering.jpg", "id": 4},
+ 	{"url": "/images/Y_U_NO.jpg", "id": 5},
+ 	{"url": "/images/WTF.jpg", "id": 6}
+ ]		

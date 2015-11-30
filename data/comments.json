@@ -1,4 +1,28 @@
-var newComments = {
-    "message": "req.body.message",
-    "imageId": "req.body.imageId"
-  };
+[
+{
+    "tcomment": "They laughed at my haircut", 
+    "bcomment": "They aren't laughing now", 
+    "imageId": 1
+  },
+  {
+    "tcomment": "Wallace has no idea what he's doing", 
+    "bcomment": "But that's nothing to do with me", 
+    "imageId": 2
+  },{
+    "tcomment": "Sweet", 
+    "bcomment": "I love it", 
+    "imageId": 3
+  },{
+    "tcomment": "Come my pretty one", 
+    "bcomment": "It's play time", 
+    "imageId": 4
+  },{
+    "tcomment": "Y U NO KNOW", 
+    "bcomment": "HOW TO CODE?", 
+    "imageId": 5
+  },{
+    "tcomment": "It was Thanksgiving!", 
+    "bcomment": "Seriously!", 
+    "imageId": 6
+  }
+  ]

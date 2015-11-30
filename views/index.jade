@@ -1,13 +1,20 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	h1= title
+	p Welcome to #{title}
 
-  form#newComments
-    input(type="text" name="name" placeholder="Enter a top line on the image")
-    input(type="text" name="type" placeholder="Enter a bottom line on the image")
-    button(type="submit") Submit!
-  
- 
-  
+	each meme in memes
+		div.pictures#top
+			each comment in comments
+				if comment.imageId == meme.id
+					img(src=meme.url)
+					p.up= comment.tcomment
+					p.down= comment.bcomment
+	for elem in memes 
+		div.pictures
+			img.words(src=elem.url)
+			form(id=elem.id)
+				input(type="text" name="tcomment" placeholder="Enter top line of text")
+				input(type="text" name="bcomment" placeholder="Enter bottom line of text")
+				button.button(type="submit") Submit!
